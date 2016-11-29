@@ -1,0 +1,59 @@
+
+#principal{
+
+background:green;
+width:800px;
+height:30px;
+position:absolute;
+top:0;
+left:0;
+}
+#principal li{
+	list-style-type: none;
+	float:left;
+	width:150px;
+	border-style: dashed;
+	border-width: 1px;
+
+}
+#principal li a:link, #principal li a:visited{
+	display:block;
+	background: #E0FCC8;
+	margin:0;
+	padding:5px 6px;
+	text-decoration: none;
+	color:black;
+	height:1%;
+
+}
+#principal li a:hover{
+	background-color: #A5F95B;
+
+}
+#principal .secondaire
+{
+	display:none;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#principal .secondaire li{
+	float:none;
+	border:0;
+
+}
+#principal .secondaire li a:link, #principal .secondaire li a:visited{
+	display:block;
+	text-decoration: none;
+}
+#principal .secondaire li a:hover{
+	background-color: green;
+}
+#principal li:hover > .secondaire
+{
+	display: block;
+
+}
+
+

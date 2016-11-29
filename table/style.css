@@ -1,0 +1,26 @@
+td{
+
+	border:solid;
+}
+
+table{
+	border:solid;
+	border-color: red;	
+}
+table td:first-child
+{
+	background-color: yellow;
+
+}
+
+tr:nth-child(odd)
+{
+	background-color: silver
+
+}
+
+tr:nth-child(even)
+{
+	background-color: white
+
+}
