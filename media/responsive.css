@@ -1,0 +1,98 @@
+html{
+	box-sizing: border-box;
+
+}
+.desktop{
+	display:none;
+}
+.mobile{
+	display:block;
+}
+
+/* Page-level */
+body { 
+	margin:0; /* espacement extérieur */
+	padding:0; /* espacement intérieur */ 
+	background:gray; /* arrière plan _ par défaut = blanc*/ 
+	font-family: Helvetica, Arial, sans-serif;  /* typo / police de caractère _ par défaut = times new roman */ 
+	font-size:14px; /* 16px par défaut _ cf option d'affichage du navigateur */
+	}
+	
+#page { 
+	width:100%; /* largeur */ 
+	
+	margin-right:0; /* espacement extérieur droite */
+	margin-left:0; /* espacement extérieur gauche */
+	
+	}
+
+header { 
+	width:100%;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	margin:0;
+	background:#0000ff; /* bleu */
+	color:#fff; /* couleur du texte _ par défaut = noir */
+	}
+	
+nav { 
+	float:none;  /* position floatante à gauche */
+	width:100%; 
+	
+	background:#00ff00; /* vert */
+	}
+	
+	nav ul { 
+		list-style:block;  /* forme de la puce */
+		text-align: center;
+		margin:0; 
+		padding:6px 0; 
+		} 
+		
+		nav ul li { 
+			font-size:20px; 
+			font-weight:bold;  /* graisse */
+			}
+		
+		nav ul li a{ 
+			color:#fff; 
+			}
+
+section {
+	margin:0;
+	background:transparent;
+	}
+
+	section article { 
+		text-align: center;
+		background-color: orange;
+
+		}
+
+footer { 
+	
+	height:auto;  /* hauteur du contenu _ par défaut = à la hauteur du font-size + les padding-top et bottom */
+	padding-top:10px;
+	}
+
+h1 { font-size: 4em; margin:0; padding:0px; } /* 4 * 14px = 56px*/
+h2 { font-size: 2.0em; margin:0; padding:0px; } /* 2.0 * 14px = 28px*/
+h3 { font-size: 1.4em; margin:0; padding:0px; } /* 1.4 * 14px = 19.6px */
+
+article p {
+	padding:10px; 
+	} 
+	
+	
+
+.desktop {
+	display:block;
+}
+
+.mobile {
+	display:none;
+}
+
+

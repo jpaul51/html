@@ -1,0 +1,93 @@
+/* Page-level */
+body { 
+	margin:0; /* espacement extérieur */
+	padding:0; /* espacement intérieur */ 
+	background:gray; /* arrière plan _ par défaut = blanc*/ 
+	font-family: Helvetica, Arial, sans-serif;  /* typo / police de caractère _ par défaut = times new roman */ 
+	font-size:14px; /* 16px par défaut _ cf option d'affichage du navigateur */
+	}
+	
+#page { 
+	width:1000px; /* largeur */ 
+	background:white; 
+	border:1px solid white;  /* bordure (largeur, forme, couleur) */ 
+	margin-right:auto; /* espacement extérieur droite */
+	margin-left:auto; /* espacement extérieur gauche */
+	padding:0;
+	}
+
+header { 
+	width:960px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	margin:0;
+	background:#0000ff; /* bleu */
+	color:#fff; /* couleur du texte _ par défaut = noir */
+	}
+	
+nav { 
+	float:left;  /* position floatante à gauche */
+	width:220px; 
+	margin:10px;
+	padding:10px;
+	background:#00ff00; /* vert */
+	}
+	
+	nav ul { 
+		list-style:none;  /* forme de la puce */
+		margin:0; 
+		padding:0; 
+		} 
+		
+		nav ul li { 
+			font-size:20px; 
+			font-weight:bold;  /* graisse */
+			}
+		
+		nav ul li a{ 
+			color:#fff; 
+			}
+
+section {
+	width:740px; 
+	margin:0px 10px 0px 260px;   /* valeur en haut, à droite, en bas et à gauche */
+	background:orange;
+	}
+
+	section article { 
+		border-bottom: 1px dashed gray; 
+		background:yellow;
+		margin:10px 0 10px 0;
+		padding:10px;
+		}
+
+footer { 
+	font-size:12px;
+	font-weight:bold; 
+	text-align:center;   /* alignement du texte _ par défaut à gauche */
+	background:#ff0000; /* rouge */
+	height:100px;  /* hauteur du contenu _ par défaut = à la hauteur du font-size + les padding-top et bottom */
+	padding-top:20px;
+	}
+
+h1 { font-size: 4em; margin:0; padding:0px; } /* 4 * 14px = 56px*/
+h2 { font-size: 2.0em; margin:0; padding:0px; } /* 2.0 * 14px = 28px*/
+h3 { font-size: 1.4em; margin:0; padding:0px; } /* 1.4 * 14px = 19.6px */
+
+article p {
+	padding:10px; 
+	} 
+	
+	
+
+.desktop {
+	display:block;
+}
+
+.mobile {
+	display:none;
+}
+
+
